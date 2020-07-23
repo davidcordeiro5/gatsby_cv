@@ -2,15 +2,15 @@ module.exports = {
   siteMetadata: {
     title: `David CORDEIRO`,
     description: `Bonjour, je m'appelle David CORDEIRO, je suis née le 5 mai 1995.
-      J'ai un parcourt assez attpique, en effet, avant de me lancer dans l'informatique et plus précesément le developement je voulais être infirmier. 
+      J'ai un parcourt assez atypique, en effet, avant de me lancer dans l'informatique et plus précisément le dévelopement, je voulais être infirmier. 
       J'ai donc fait un baccalauréat professionnel ASSP (Accompagnement Service et Soin à la Personne). 
-      Cette formation m'a permis de mettre un pieds dans le monde prefessionel assez tôt, avec 4 stages de 2 à 6 mois sur les trois ans et un CDD en fin de dernière année comme job d'été. 
-      Après ces stages et cette formation j'ai fait une préparation accélérer aux concours infirmier. Ce pendant je me rendais compte que cette profession n'etait pas faite pour moi. 
-      J'ai toujours été passionné par les nouvelles technologies ! J'ai donc cherché à me réorienter. Et c'est comme ça que j'ai commencé l'EPITECH paris.
+      Cette formation m'a permis de mettre un pied dans le monde professionnel assez tôt, avec 4 stages de 2 à 6 mois sur les trois ans et un CDD en fin de dernière année comme job d'été. 
+      Après ces stages et cette formation j'ai fait une préparation accélérée aux concours infirmier. Cependant je me rendais compte que cette profession n'etait pas faite pour moi. 
+      J'ai toujours été passionné par les nouvelles technologies ! J'ai donc cherché à me réorienter. Et c'est comme ça que j'ai commencé l'EPITECH Paris.
       Le programme Grande Ecole est le cursus classique d’Epitech. Il se déroule en 5 ans et forme des experts en informatique. 
       Il propose un contenu technique dense et varié, comprenant une diversité de projets de programmation, et couvrant de nombreux langages. Durant les 3 permière années il y a 2 stages de 4 à 6 mois. 
       Après l'obtention dans mon "Bachelor Epitech en Technologie de l'information" en 2018, 
-      j'ai choisi de réjoindre le programme Golbal Tech qui est un nouveau programme en alternance pour la 4e et 5e.
+      j'ai choisi de rejoindre le programme Golbal Tech qui est un nouveau programme en alternance pour la 4e et 5e.
       Et j'ai eu la chance de pouvoir effectuer ces 2 ans d'alternance au SogetiLabs Paris un studio d'innovation R&D de Sogeti part of Capdemini.`,
     author: `davicord.contact@gmail.com`,
     job: `React developper`,
@@ -25,7 +25,7 @@ module.exports = {
         {
           title: 'Veille',
           iconName: "book",
-          description: "La Veille, quelle soit techonologique ou non la me permet de découvrir et d'apprendre pleins de nouvelles choses notament dans la finance, l'ecologie et bien évidemment de connaitre de nouvelle technologie ou de voir d'autre facon de codee",
+          description: "La Veille, quelle soit technologique ou non elle permet de découvrir et d'apprendre pleins de nouvelles choses notamment dans la finance, l'écologie et bien évidemment de connaitre de nouvelles technologies ou de voir d'autre façon de coder",
         },
         {
           title: 'Moto',
@@ -35,12 +35,12 @@ module.exports = {
         {
           title: 'Musique',
           iconName: "headphones",
-          description: "J'ai beacoup le musique, il n'y a pas un jour ou j'en écoute pas",
+          description: "J'ai beaucoup la musique, il n'y a pas un jour ou je n'en écoute pas",
         },
         {
           title: 'Sortie',
           iconName: "talking",
-          description: "Etant plutot sociable j'aime beacoup faire de nouvelles rencontre et discuter",
+          description: "Etant plutot sociable j'aime beaucoup faire de nouvelles rencontre et discuter",
         },
       ]
     },
