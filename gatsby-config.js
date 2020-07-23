@@ -35,12 +35,12 @@ module.exports = {
         {
           title: 'Musique',
           iconName: "headphones",
-          description: "zdazdazd azdazdazdazd azd az d az d azd a z dazdazdaz dazd azdazdazd azd az dazdazd ",
+          description: "J'ai beacoup le musique, il n'y a pas un jour ou j'en écoute pas",
         },
         {
           title: 'Sortie',
           iconName: "talking",
-          description: "dazdaz dazd azdazd fdgr th trhththd ghdghfghdfhg fdghfgh ",
+          description: "Etant plutot sociable j'aime beacoup faire de nouvelles rencontre et discuter",
         },
       ]
     },
