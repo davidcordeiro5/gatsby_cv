@@ -1,0 +1,27 @@
+@import "../../style/base/colors";
+@import "../../style/base/mixin";
+
+.header-page {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 70px;
+  @include media ("<desktop") {
+    padding: 30px 40px;
+  }
+}
+
+.header-title {
+  margin: 0;
+  font-size: 1.7rem;
+  border-bottom: 1px solid $grey-200;
+}
+
+.header-subtitle {
+  margin: 0;
+  margin-left: auto;
+  margin-top: 3px;
+  color: $shadow-grey;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: italic;
+}

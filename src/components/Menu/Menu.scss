@@ -1,0 +1,93 @@
+@import "../../style/base/mixin";
+@import "../../style/base/colors";
+
+.menu {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 100vh;
+  background-color: $fff;
+  @include media ("<desktop") {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    //transition: 0.5s;
+    padding-top: 25px;
+    box-shadow: 0px 0px 5px 0px $shadow-grey;
+  }
+}
+
+#mySidenav {
+  @include media (">=desktop") {
+   width: 180px !important;
+  }
+}
+
+.closebtn {
+  display: none;
+  @include media ("<desktop") {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+    font-size: 36px;
+    margin-left: 70px;
+  }
+}
+
+.menu-tilte {
+  margin-bottom: 40px;
+  padding: 0 5px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.link-page {
+  width: 100%;
+  padding: 10px 0;
+  padding-right: 2px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+  color: $primary;
+  border: solid 0.5px $grey-100;
+
+  &:hover {
+    background-color: $grey-100;
+    border: none;
+    border-right: 3px solid $secondary;
+    transition-property: color;
+  }
+
+  &.-active {
+    background-color: $grey-100;
+    border-right: 3px solid $secondary;
+  }
+}
+
+.social-ul {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-link {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 5px 1px $shadow-grey;
+    border-radius: 50%;
+  }
+}

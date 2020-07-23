@@ -1,0 +1,13 @@
+@import "../../style/base/mixin";
+@import "../../style/base/colors";
+
+.title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  &.-underline {
+    text-decoration: underline $secondary;
+  }
+
+}

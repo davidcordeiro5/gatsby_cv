@@ -1,0 +1,117 @@
+@import "../style/base/mixin";
+@import "../style/base/colors";
+
+.resume {
+  padding: 50px 70px;
+  display: flex;
+  @include media ("<desktop") {
+    flex-direction: column;
+    padding: 30px 40px;
+  }
+}
+
+.education {
+  width: 65%;
+  @include media ("<desktop") {
+    width: 100%;
+  }
+}
+
+
+.sep {
+  width: 1px;
+  background-color: $grey-200;
+  margin: 0 20px;
+  
+}
+
+.sep::after {
+  content: '';
+  display: block;
+  margin-top: 17px;
+  width: 11px;
+  height: 11px;
+  margin-left: -5px;
+  border-radius: 5px;
+  border: 2px solid $secondary;
+  background-color: #fff;
+}
+
+.left-part {
+  text-align: end;
+  width: 25%;
+  padding: 15px 0;
+}
+.right-part {
+  width: 75%;
+  padding: 15px 0;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  //padding: 30px;
+  @include media ("<desktop") {
+    //padding: 20px 0;
+  }
+}
+
+.item-year {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.item-what {
+  font-size: 0.7rem;
+  color: $shadow-grey;
+}
+.item-techno {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+.item-job {
+  font-size: 1rem;
+  margin: 0;
+}
+.item-desc {
+  color: $dark-400;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.skills {
+  width: 35%;
+  @include media ("<desktop") {
+    width: 100%;
+  }
+}
+
+.aside-skills {
+  padding-left: 45px;
+  position: fixed;
+  @include media ("<desktop") {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    padding: 0;
+  }
+}
+.skill-name {
+  margin: 0;
+  margin-bottom: 5px;
+  @include media ("<desktop") {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+.skill-stars  {
+  @include media ("<desktop") {
+    text-align: center;
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../style/base/mixin";
+@import "../../style/base/colors";
+
+.app {
+  display: flex;
+  font-family: sans-serif;
+  background-color: $grey-100;
+  
+  @include media ("<desktop") {
+    display: block;
+  }
+  @include media (">=wide") {
+    height: 100vh;
+  }
+}
+
+.main {
+  width: 100%;
+  background-color: #fff;
+  margin-left: 200px;
+  @include media ("<desktop") {
+    margin-left: 0;
+  }
+}
+
+.footer-app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 10px;
+  margin-left: 180px;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  background-color: $grey-100;
+  @include media ("<desktop") {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+}
+
+.my-button {
+  border: none;
+  color: #fff;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 0px;
+  background-color: $secondary;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: 0px 0px 5px $dark_500;
+  }
+  &:focus {
+    outline: none;
+  }
+}
