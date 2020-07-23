@@ -1,7 +1,17 @@
 module.exports = {
   siteMetadata: {
     title: `David CORDEIRO`,
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+    description: `Bonjour, je m'appelle David CORDEIRO, je suis née le 5 mai 1995.
+      J'ai un parcourt assez attpique, en effet, avant de me lancer dans l'informatique et plus précesément le developement je voulais être infirmier. 
+      J'ai donc fait un baccalauréat professionnel ASSP (Accompagnement Service et Soin à la Personne). 
+      Cette formation m'a permis de mettre un pieds dans le monde prefessionel assez tôt, avec 4 stages de 2 à 6 mois sur les trois ans et un CDD en fin de dernière année comme job d'été. 
+      Après ces stages et cette formation j'ai fait une préparation accélérer aux concours infirmier. Ce pendant je me rendais compte que cette profession n'etait pas faite pour moi. 
+      J'ai toujours été passionné par les nouvelles technologies ! J'ai donc cherché à me réorienter. Et c'est comme ça que j'ai commencé l'EPITECH paris.
+      Le programme Grande Ecole est le cursus classique d’Epitech. Il se déroule en 5 ans et forme des experts en informatique. 
+      Il propose un contenu technique dense et varié, comprenant une diversité de projets de programmation, et couvrant de nombreux langages. Durant les 3 permière années il y a 2 stages de 4 à 6 mois. 
+      Après l'obtention dans mon "Bachelor Epitech en Technologie de l'information" en 2018, 
+      j'ai choisi de réjoindre le programme Golbal Tech qui est un nouveau programme en alternance pour la 4e et 5e.
+      Et j'ai eu la chance de pouvoir effectuer ces 2 ans d'alternance au SogetiLabs Paris un studio d'innovation R&D de Sogeti part of Capdemini.`,
     author: `davicord.contact@gmail.com`,
     job: `React developper`,
     linksMenu: [
